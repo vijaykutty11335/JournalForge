@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.bg{
+  position: absolute;
+  width: 100%;
+  height: 640px;
+}
+.firstpage{
+  position: relative;
+  z-index: 1;
+}
+.navbar{
+  height: 60px;
+  width: 100%;
+  background-color: rgb(208, 241, 208);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo{
+  font-size: 30px;
+  font-weight: 500;
+}
+.logo::first-letter{
+  font-size: 40px;
+  color: orangered;
+}
+.search{
+  display: flex;
+}
+.search input{
+  padding: 10px;
+  padding-right: 130px;
+  border: 1px solid;
+  border-radius: 30px;
+
+}
+.publish{
+  text-decoration: none;
+  background-color: greenyellow;
+  padding: 6px 30px;
+  border-radius: 20px;
+  color: black;
+  margin: 0 20px;
+}
+.links{
+  display: flex;
+  gap: 50px;
+}
+.links a{
+  text-decoration: none;
+  color: black;
+}
+.profilebtn{
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 5px 35px;
+  border-radius: 30px;
+}
+.firstline{
+  font-size: 90px;
+  font-weight: 800;
+}
+
+.secondline{
+  font-size: 30px;
+  font-weight: 400;
+}
+.thirdline{
+  font-size: 10px;
+}
+.indexone{
+  width: 500px;
+  height: 200px;
+  text-align: right;
+}
+.fourthline{
+  font-size: 20px;
+  text-align: center;
+}
+.explorebtn{
+  position: relative;
+  left: 300px;
+  background-color: greenyellow;
+  text-decoration: none;
+  color: black;
+  padding: 15px 20px;
+  border-radius: 40px;
+}
+.welcome{
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 50px;
+}
+.secondpage{
+  width: 100%;
+  height: 640px;
+  background-color: rgb(226, 247, 195);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.abouthead{
+  text-align: center;
+  text-decoration: underline 3px greenyellow;
+  font-size: 40px;
+  font-weight: 600;
+
+}
+.secondpage div{
+  height: 500px;
+  width: 900px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px;
+  border-left: 10px solid greenyellow;
+  border-right: 10px solid greenyellow;
+}
+.aboutcontent{
+  font-size: 20px;
+  line-height: 40px;
+}
+.values span{
+  font-size: 20px;
+  font-weight: bold;
+}
+.values li{
+  position: relative;
+  left: 60px;
+  font-size: 18px;
+  margin: 10px;
+}
+.popularjournals{
+  height: 260px;
+  width: 600px;
+  border: 2px solid;
+  border-radius: 20px;
+  font-size: 15px;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 0 20px;
+  position: relative;
+  top: 30px;
+}
+.jimg{
+  width: 220px;
+  height:230px;
+  border-radius: 20px;
+}
+.phead{
+  position: relative;
+  left: 20px;
+  display: inline;
+}
+.pcontent{
+  text-align: justify;
+  font-size: 13px;
+  position: relative;
+  left: 20px;
+  right: 10px;
+  display: inline;
+}
+.pexplore-btn{
+  position: relative;
+  top: 10px;
+  left: 80px;
+  background-color: greenyellow;
+  color: white;
+  font-size: 18px;
+  padding: 10px 50px;
+  border-radius: 40px;
+  border: none;
+}
+.card{
+  display: flex;
+  gap: 10px;
+}
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(226, 247, 195);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 80px;
+  
+}
+.flinks{
+  display: flex;
+  gap: 100px;
+}
+.flinks a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Signup-Page */
+
+.signup-container{
+  margin: 15px;
+  height: 600px;
+  width: 1340px;
+  background-color: rgb(226, 247, 195);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-box{
+  height: 500px;
+  width: 75%;
+  background-color: white;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+.signup-head{
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+.signup-content input{
+  padding: 10px 120px 10px 10px;
+  border: none;
+  border-bottom: 2px solid greenyellow;
+}
+.signup-content input:focus{
+  outline: none;
+}
+
+.signup-left{
+position: relative;
+height: 100%;
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.group{
+  margin: 20px;
+}
+.signup-btn{
+  position: relative;
+  left: 80px;
+  padding: 10px 70px;
+  border-radius: 10px;
+  border: none;
+  background-color: greenyellow;
+}
+.signup-btn:hover{
+  background-color: rgb(194, 253, 56);
+}
+.signup-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-head{
+  position: relative;
+  bottom: 80px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.create-ac{
+  position: relative;
+  bottom: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.google-btn{
+  padding: 15px 100px;
+  border-radius: 15px;
+  border: 1px solid gray;
+  color: rgb(4, 122, 233);
+  background-color: white;
+  font-size: 20px;
+}
+
+/* Login-Page */
+
+.login-container{
+  margin: 15px;
+  height: 600px;
+  width: 1340px;
+  background-color: rgb(226, 247, 195);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-box{
+  height: 500px;
+  width: 60%;
+  background-color: white;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+}
+.login-left{
+  position: relative;
+height: 100%;
+width: 50%;
+display: flex;
+border-right: 2px solid gray;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.login-img{
+  height: 400px;
+  width: 400px;
+}
+.login-right{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-top{
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+}
+.login-head{
+  font-size: 30px;
+  font-weight: 500;
+  margin: 10px;
+}
+.login-inputs{
+  position: relative;
+  
+}
+.input1{
+  margin: 25px;
+}
+.input2{
+  margin: 25px;
+}
+.login-inputs input{
+  padding: 8px 70px 8px 8px;
+  border: none;
+  border-bottom: 2px solid greenyellow;
+}
+.login-inputs input:focus{
+  outline: none;
+}
+.login-bottom{
+  position: relative;
+  top: 20px
+}
+.login-btn{
+  padding: 10px 70px;
+  border-radius: 10px;
+  border: none;
+  background-color: greenyellow;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.login-btn:hover{
+  background-color: rgb(194, 253, 56);
+}
+
